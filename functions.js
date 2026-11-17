@@ -4,7 +4,7 @@ function goToSite(site){
 window.goToSite=goToSite;
 function refreshLoop(amount){
   for (let i = 0; i<amount; i++){
-    window.location.replace(window);
+    window.location.reload();
   }
 }
 window.refreshLoop=refreshLoop;
