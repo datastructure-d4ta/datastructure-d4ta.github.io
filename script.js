@@ -3,5 +3,6 @@ setTimeout(()=>{
   document.getElementById("3").textContent="What about red?";
 setTimeout(()=>{
   document.getElementById("1").textContent="Do you also like white?";
-}, 4000);}, 1562);
-
+}, 4000);}, 2000);
+let button = document.querySelector(".button");
+button.addEventListener(mouseover, ()=>{button.click();});
